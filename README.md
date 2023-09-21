@@ -21,6 +21,7 @@ This project is aimed at developing a database for an online store. The database
 7. **Orders**: Details of customer orders include information about the employee who processed the order, details about the delivery company used for shipping, as well as other relevant delivery information (order date, delivery address, tracking number, payment status).
 
 8. **Shopping Cart Lines**: Items added to customers' shopping carts before checkout (information about a product, quantity, unit price, total price, purchase status).
+   
 ![Online_Store_DB_conceptual_schema](https://github.com/Olenka-Hryk/OnlineStore-DataBase-PostgreSQL/assets/28622400/79b312e2-ec13-4be0-9036-dfc3d918c3ae)
 
 
