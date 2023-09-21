@@ -1,4 +1,6 @@
 # OnlineStore-DataBase-PostgreSQL
+<img width="1063" alt="OnlineStore_Diagram" src="https://github.com/Olenka-Hryk/OnlineStore-DataBase-PostgreSQL/assets/28622400/688611aa-1f8d-4a90-aef5-b5c01411e682">
+
 
 # Database "Online store"
 The online store sells its own goods to registered customers. Each product has a category, characteristics, cost, units of measurement (pieces, kilograms, etc.). The client creates a buyer's basket by choosing goods in a certain quantity and indicates the delivery address.
