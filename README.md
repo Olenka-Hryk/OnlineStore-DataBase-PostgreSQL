@@ -5,7 +5,7 @@
 # Database "Online store"
 The online store sells its own goods to registered customers. Each product has a category, characteristics, cost, units of measurement (pieces, kilograms, etc.). The client creates a buyer's basket by choosing goods in a certain quantity and indicates the delivery address.
 
-This project is aimed at developing a database for an online store. The database is built using PostgreSQL and includes the following entities:
+This project is aimed at developing a database for an online store. The database is built using PostgreSQL (and MongoDB) and includes the following entities:
 1. **Customers**: Information about registered customers (password, phone, email, registration date, email verified status), including personal details (first name, last name, patronymic name, birthday, photo) and residential address (zip code, address, city, region, country).
 
 2. **Employees**: Data about store employees (first name, last name, birthday, phone, email, photo, address, city, region, country), their roles, and other relevant information (hire date, rate).
@@ -44,6 +44,8 @@ The project comprises the following files and directories:
 - `DB Triggers/`: The directory contains SQL scripts for creating DML triggers on INSERT, UPDATE, and DELETE operations.
 
 - `DB Administration/`: The directory contains SQL scripts for creating roles and assigning users to these roles.
+  
+- `MongoDB/`: This directory contains scripts for defining all the necessary collections with appropriate documents, as well as scripts for retrieving data from the collections and using aggregation.
 
 
 ## Installation and Usage
